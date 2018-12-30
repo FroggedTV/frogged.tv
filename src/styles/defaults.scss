@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  position: relative;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+}
+
+a,
+button {
+  cursor: pointer;
+  color: $sky;
+}
+
+a,
+a:hover,
+a:focus,
+a:visited,
+a:active {
+  text-decoration: none;
+  transition: color 0.2s ease-out;
+}
+
+small {
+  font-size: 0.875em;
+}
+
+#app {
+  background: $almost-black;
+  min-height: 100vh;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $white;
+}
+
+.button {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  display: block;
+  background: $background-color;
+  text-align: center;
+  padding: 0.5em;
+  border: 1px solid $border-color;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1em;
+  color: $text-color;
+
+  &:hover {
+    @include highlight();
+  }
+}
+
+.container {
+  padding: 1em;
+  overflow: scroll;
+}
+
+.news-list + .button {
+  margin-top: 1em;
+}

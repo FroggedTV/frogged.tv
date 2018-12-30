@@ -1,0 +1,31 @@
+.card {
+  position: relative;
+  height: 140px;
+  overflow: hidden;
+  display: block;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  border: 1px solid $border-color;
+}
+
+.card:hover {
+  @include highlight();
+}
+
+.card + .card {
+  margin-top: 1em;
+}
+
+.grid-container > .card + .card {
+  margin-top: 0;
+}
+
+.card__cover {
+  background: $black;
+}
+
+.card__cover img {
+  object-fit: cover;
+  width: 100%;
+  opacity: 0.8;
+}

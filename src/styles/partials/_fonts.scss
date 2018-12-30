@@ -1,0 +1,15 @@
+$font_path: '~/assets/fonts/';
+// @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@font-face {font-family: 'Rift-BoldItalic';font-style: italic;src: url($font_path + '36EC92_0_0.eot');src: url($font_path + '36EC92_0_0.eot?#iefix') format('embedded-opentype'),url($font_path + '36EC92_0_0.woff2') format('woff2'),url($font_path + '36EC92_0_0.woff') format('woff'),url($font_path + '36EC92_0_0.ttf') format('truetype');}
+
+@font-face {font-family: 'Rift-Italic';font-style: italic;src: url($font_path + '36EC92_1_0.eot');src: url($font_path + '36EC92_1_0.eot?#iefix') format('embedded-opentype'),url($font_path + '36EC92_1_0.woff2') format('woff2'),url($font_path + '36EC92_1_0.woff') format('woff'),url($font_path + '36EC92_1_0.ttf') format('truetype');}
+
+@font-face {font-family: 'Rift-LightItalic';font-style: italic;src: url($font_path + '36EC92_2_0.eot');src: url($font_path + '36EC92_2_0.eot?#iefix') format('embedded-opentype'),url($font_path + '36EC92_2_0.woff2') format('woff2'),url($font_path + '36EC92_2_0.woff') format('woff'),url($font_path + '36EC92_2_0.ttf') format('truetype');}
+ 
+// @font-face {
+//   font-family: "Rift-BoldItalic";
+//   src: url($font_path + "36EC92_0_0.woff2") format('woff2');
+//   font-weight: 400;
+//   font-style: italic;
+// }
+
